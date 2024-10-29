@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Selling Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS file link -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Car Selling Website</h1>
+    </header>
+    <main>
+        <section class="car-listing">
+            <h2>Car Model 1</h2>
+            <p>Price: $20,000</p>
+            <p>Details about Car Model 1.</p>
+        </section>
+        <section class="car-listing">
+            <h2>Car Model 2</h2>
+            <p>Price: $25,000</p>
+            <p>Details about Car Model 2.</p>
+        </section>
+        <section class="car-listing">
+            <h2>Car Model 3</h2>
+            <p>Price: $30,000</p>
+            <p>Details about Car Model 3.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 My Car Selling Website</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.car-listing {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
